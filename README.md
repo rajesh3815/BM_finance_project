@@ -1,5 +1,6 @@
 # BM_finance_project
-PROJECT DOCUMENTATION_-
+PROJECT DOCUMENTATION:-
+-------------------------------------------------------------------------------------------------------------------------
 👨‍💻 Developed by: Rajesh Kumar Rout
  Platform: Microsoft Fabric
  Tools & Technologies: PySpark, Delta Lake, Lakehouse, Data Warehouse, Power BI
@@ -28,7 +29,7 @@ Bronze layer-
 ⭐ Gold Layer (Star Schema):
         Built using PySpark with the following structure:
        Apply Bussiness logic to transform silver layer data to gold layer (BI consumable data) 
-       <img src="image/Screenshot (31).png" alt="Dashboard" width="600"/>
+       <img src="image/Screenshot (31).png" alt="Dashboard" width="900"/>
 
 Dimension Tables:
 •	bankbranch_table: Customer details (Customer_ID, Age, Region, etc.)
@@ -55,5 +56,15 @@ Using Fabric's Direct Lake connection, the following insights were visualized:
 •	Branches with low profit margins
 •	Customers with high withdrawals vs balance
 •	City and region wise analysis of branch performance
- 
+ Power BI report 1-👇
+ -----------------------------------------------------------------------------------------------------------------
+   <img src="image/Screenshot (32).png" alt="Dashboard" width="900"/>
+-----------------------------------------------------------------------------------------------------------------
 
+ Power BI report 2-👇
+  -----------------------------------------------------------------------------------------------------------------
+   <img src="image/Screenshot (33).png" alt="Dashboard" width="800"/>
+-----------------------------------------------------------------------------------------------------------------
+The hole pipeline overview:-👇
+====================================================================================================
+<img src="image/Screenshot (34).png" alt="Dashboard" width="900"/>
